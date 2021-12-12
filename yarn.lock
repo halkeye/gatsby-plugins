@@ -1556,6 +1556,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@halkeye/gatsby-rehype-rewrite-ids@workspace:packages/gatsby-rehype-rewrite-ids":
+  version: 0.0.0-use.local
+  resolution: "@halkeye/gatsby-rehype-rewrite-ids@workspace:packages/gatsby-rehype-rewrite-ids"
+  dependencies:
+    eslint: 7.32.0
+    eslint-config-standard: 16.0.3
+    eslint-plugin-import: 2.24.2
+    eslint-plugin-node: 11.1.0
+    eslint-plugin-promise: 5.1.0
+    hast-util-to-string: ^1.0.4
+    jest: ^27.4.3
+    lodash: ^4.17.21
+    unist-util-visit: ^2.0.3
+    yarn: ^1.22.17
+  peerDependencies:
+    gatsby: ^3.0.0 || ^4.0.0
+  languageName: unknown
+  linkType: soft
+
 "@halkeye/gatsby-transformer-rehype@workspace:packages/gatsby-transformer-rehype":
   version: 0.0.0-use.local
   resolution: "@halkeye/gatsby-transformer-rehype@workspace:packages/gatsby-transformer-rehype"
