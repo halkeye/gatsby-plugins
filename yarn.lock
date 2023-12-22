@@ -1548,11 +1548,11 @@ __metadata:
     hast-util-to-string: ^1.0.4
     jest: ^27.4.3
     lodash: ^4.17.21
-    style-to-object: ^0.3.0
+    style-to-object: ^0.4.0
     unist-util-visit: ^2.0.3
     yarn: ^1.22.17
   peerDependencies:
-    gatsby: ^3.0.0 || ^4.0.0
+    gatsby: ^4.0.0 || ^5.0.0
   languageName: unknown
   linkType: soft
 
@@ -1571,7 +1571,7 @@ __metadata:
     unist-util-remove-position: ^3.0.0
     unist-util-visit: ^2.0.3
   peerDependencies:
-    gatsby: ^3.0.0 || ^4.0.0
+    gatsby: ^4.0.0 || ^5.0.0
   languageName: unknown
   linkType: soft
 
@@ -7461,6 +7461,15 @@ __metadata:
   dependencies:
     inline-style-parser: 0.1.1
   checksum: 4d7084015207f2a606dfc10c29cb5ba569f2fe8005551df7396110dd694d6ff650f2debafa95bd5d147dfb4ca50f57868e2a7f91bf5d11ef734fe7ccbd7abf59
+  languageName: node
+  linkType: hard
+
+"style-to-object@npm:^0.4.0":
+  version: 0.4.4
+  resolution: "style-to-object@npm:0.4.4"
+  dependencies:
+    inline-style-parser: 0.1.1
+  checksum: 41656c06f93ac0a7ac260ebc2f9d09a8bd74b8ec1836f358cc58e169235835a3a356977891d2ebbd76f0e08a53616929069199f9cce543214d3dc98346e19c9a
   languageName: node
   linkType: hard
 
