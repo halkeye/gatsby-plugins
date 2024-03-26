@@ -106,28 +106,28 @@ __metadata:
   linkType: hard
 
 "@babel/eslint-parser@npm:^7.16.3":
-  version: 7.16.3
-  resolution: "@babel/eslint-parser@npm:7.16.3"
+  version: 7.24.1
+  resolution: "@babel/eslint-parser@npm:7.24.1"
   dependencies:
-    eslint-scope: ^5.1.1
+    "@nicolo-ribaudo/eslint-scope-5-internals": 5.1.1-v1
     eslint-visitor-keys: ^2.1.0
-    semver: ^6.3.0
+    semver: ^6.3.1
   peerDependencies:
-    "@babel/core": ">=7.11.0"
+    "@babel/core": ^7.11.0
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 3678ea3be1b94dd17516b84b84998f043e8e1a6c5690c572e850011736e224bc62a96d4a96be9e38556e2dfe7914962af5edfd205fdc8b846794a232c81f94a8
+  checksum: 962ffa98629f76234d7fd75134848bea040137c8534c602c73ed9ad6bdd3be0d2e7eaebd2ad496e81ab87220176170fd805e6fdc98464af6907ac66e1da7fc9a
   languageName: node
   linkType: hard
 
 "@babel/eslint-plugin@npm:^7.14.5":
-  version: 7.14.5
-  resolution: "@babel/eslint-plugin@npm:7.14.5"
+  version: 7.23.5
+  resolution: "@babel/eslint-plugin@npm:7.23.5"
   dependencies:
     eslint-rule-composer: ^0.3.0
   peerDependencies:
-    "@babel/eslint-parser": ">=7.11.0"
-    eslint: ">=7.5.0"
-  checksum: 7aa5868ee9f2396da650067eb2c918011d830e0aca7af87ed361d6de8c182c2f6535fa1acc8711f76b3d52fc91e50b2784d5756d628d3af9cc93593fd115fafa
+    "@babel/eslint-parser": ^7.11.0
+    eslint: ^7.5.0 || ^8.0.0
+  checksum: 07b0907d100d5fabb05d0e3d573872dfed1ec094f167679928ddd20f3dcf6d914d0d08dd202590e2afa5a80550eede18cc96f69795505d88a7d7ab5b8b4071d8
   languageName: node
   linkType: hard
 
@@ -1552,7 +1552,7 @@ __metadata:
     unist-util-visit: ^2.0.3
     yarn: ^1.22.17
   peerDependencies:
-    gatsby: ^3.0.0 || ^4.0.0
+    gatsby: ^4.0.0 || ^5.0.0
   languageName: unknown
   linkType: soft
 
@@ -1571,7 +1571,7 @@ __metadata:
     unist-util-remove-position: ^3.0.0
     unist-util-visit: ^2.0.3
   peerDependencies:
-    gatsby: ^3.0.0 || ^4.0.0
+    gatsby: ^4.0.0 || ^5.0.0
   languageName: unknown
   linkType: soft
 
@@ -1841,6 +1841,15 @@ __metadata:
     readdirp: ^2.2.1
     upath: ^1.1.1
   checksum: 8d5e99355f577467c3eab339279c8db927195b7803c7d6872c66012fddf481cec5763808d3feaa7845c246aebbcf157512d4fafcf75102ca30dadadc0c6c025e
+  languageName: node
+  linkType: hard
+
+"@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
+  version: 5.1.1-v1
+  resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
+  dependencies:
+    eslint-scope: 5.1.1
+  checksum: f2e3b2d6a6e2d9f163ca22105910c9f850dc4897af0aea3ef0a5886b63d8e1ba6505b71c99cb78a3bba24a09557d601eb21c8dede3f3213753fcfef364eb0e57
   languageName: node
   linkType: hard
 
@@ -3471,7 +3480,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^5.1.1":
+"eslint-scope@npm:5.1.1, eslint-scope@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-scope@npm:5.1.1"
   dependencies:
@@ -7033,6 +7042,15 @@ __metadata:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
+  languageName: node
+  linkType: hard
+
+"semver@npm:^6.3.1":
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
+  bin:
+    semver: bin/semver.js
+  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
   languageName: node
   linkType: hard
 
